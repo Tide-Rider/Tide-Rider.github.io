@@ -28,7 +28,7 @@
 
     // Kinda dumb, but might make it harder for scrapers to spam the web <app></app>
     var str = 'https://script.google.com/macros/s/'
-    str += 'AKfycbwazNLpS4jJ_GKtaS8t2T8Mlbjkcr2_TlxPbbEhj1iR7aBCWfKLXio63mE1-OxSP6I0'
+    str += 'AKfycbyVdL6Flqom-xaSXyRUhUOLyG9H4z24ka1oJctOWoR27G_FkJ03A0_SqnC9kRNb9DyL'
     str += '/exec'
     str += '?data={%22type%22:%22' + "page" + '%22,%22auth%22:%22' + pw + '%22}'
     document.getElementById("fr").src = str;
@@ -37,8 +37,8 @@
     var pw = localStorage.getItem("TRPW");
     if(pw != null) {
         document.getElementById("in").value = pw;
-        ld();
     }
+    ld();
 </script>
 </body>
 </html>
